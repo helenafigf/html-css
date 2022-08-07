@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(245, 201, 143);
+    text-align: justify;
+}
+h1 {
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: underline;
+    padding: 25px;
+    background-color: rgb(202, 136, 51);
+    border-radius: 30px;
+    box-shadow: 100px;
+}
+h2 {
+    text-align: center;
+}
+

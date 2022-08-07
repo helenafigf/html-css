@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+body{
+    background-color: #7C35AD;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;    
+   
+}
+h1{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 900;
+    font-size: 45px;
+    padding: 20px;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.664);
+
+}
+h2{
+    font-family: 'Rampart One', cursive;
+    padding: 10px;
+    font-size: 35px;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.664);
+
+}
+h3{
+    font-family: 'Rampart One', cursive;
+    padding: 50px;
+    font-size: 35px;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.664);
+}
+img { 
+    border-radius: 200px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.158);
+}
+ul{
+    text-align: left;
+    font-size: large;
+}
+.icone{
+    color: #ffff;
+    text-decoration: none;
+}
+
+
+a:hover{
+    background-color: #390f55;
+    box-shadow: 1px 2px 5px black;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+div{
+    padding: 5px;
+}
+main {
+    color: #ffff;
+    width: 500px;
+    background-image: linear-gradient(45deg,#8800f8 20%, #c91ccf, #f800ba);
+    margin: left;
+    border-radius: 20px;
+    box-shadow: rgba(54, 49, 49, 0.699) 30px 30px 20px;
+    height: 23cm;
+}
+.follow{
+    text-align: left;
+}
+.midia{
+    box-shadow: 10px 11px 22px #390f55;
+    border-radius: 10%;
+    padding: 5px;
+    width: 300px;
+    height: fit-content;
+    background-image: linear-gradient(45deg,#7104ca 20%, #ad18b3, #cf039c);
+    
+    
+}
