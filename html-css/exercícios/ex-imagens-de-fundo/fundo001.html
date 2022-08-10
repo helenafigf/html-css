@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagens de Fundo</title>
     <style>
-        body{
-            background-image: url('imagens/wallpaper001.jpg');
-            
-        }
         .quadrado{
             display: inline-block;
             background-color: lightgrey;
@@ -31,6 +27,29 @@
         div#q3{
             background-image: url('imagens/pattern003.png')
         }
+
+        .back{
+            height: 200px;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 10px;
+            background-image: url(imagens/wallpaper002.jpg)
+        }
+
+        div#m1{
+            background-position: left top;
+        }
+        div#m2{
+            background-position: left center;
+        }
+        div#m3{
+            background-position: right bottom;
+
+        }
+
+        div#m4{
+            background-position: right top;
+        }
     </style>
 </head>
 <body>
@@ -48,6 +67,11 @@
 
         
     </div>
+
+    <div class="back" id="m1"></div>
+    <div class="back" id="m2"></div>
+    <div class="back" id="m3"></div>
+    <div class="back" id="m4"></div>
     
 </body>
 </html>
