@@ -31,12 +31,13 @@ header{
     color: white;
     background-color: black;
     text-align: center;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.685);
 }
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: Cordel, Arial, Helvetica, sans-serif;
-    font-size: 8vw;
+    font-size: 9vw;
     
 }
 header > p{
@@ -58,25 +59,30 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-size: 3.5vw;
+    font-size: 3vw;
 }
 
 section > p {
     padding-bottom: 2em;
 }
 section.normal{
-    background-color: gray;
+    background-color: rgb(250, 220, 136);
 }
 
 section.imagem{
-    background-color: yellowgreen;
+    background-color: rgba(0, 0, 0, 0.536);
+    box-shadow: inset 1px 1px 6px 0px black;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
+    color: white;
     background-color: rgba(0, 0, 0, 0.281);
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.582);
+    border-radius: 10px;
 }
 
 section#img01{
@@ -86,7 +92,7 @@ section#img01{
 
 section#img02{
     background-image: url(../imagens/background002.jpg);
-
+    background-position: right bottom;
 
 }
 footer{
