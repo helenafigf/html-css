@@ -5,28 +5,38 @@
     src: url(fontes/EldesCordel-Demo.otf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+
+:root{
+    --font01: 'Sriracha', cursive;
+    --fonte02:'Passion One', cursive;
+    --fonte03: 'Verdana', Helvetica, sans-serif;
+}
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body{
     min-height: 100%vh;
     background-color: darkgray;
+    font-family: var(--font01);
 }
 
 header{
     color: white;
     background-color: black;
-    height: 200px;
-    width: 100%;
     text-align: center;
 }
 header > h1{
     padding-top: 50px;
-    font-family: Cordel, Arial, Helvetica, sans-serif;
-    font-size: 4em;
     font-variant: small-caps;
+    font-family: Cordel, Arial, Helvetica, sans-serif;
+    font-size: 8vw;
     
 }
 header > p{
@@ -48,8 +58,12 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
 section.normal{
     background-color: gray;
 }
@@ -59,7 +73,8 @@ section.imagem{
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.247);
 }
 footer{
@@ -67,4 +82,5 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
+    font-family: var(--fonte03);
 }
