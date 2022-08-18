@@ -13,7 +13,7 @@
     </style>
 </head>
 <body>
-    <h1>Exemplos de iframe </h1>
+    <h1>Navegando pelo Iframe  </h1>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, cumque! Modi explicabo est dolor consectetur libero quibusdam dolore velit reprehenderit, provident nemo nisi obcaecati totam? Laborum neque distinctio amet quis?</p>
 
         <ul>
@@ -27,5 +27,27 @@
     <iframe src="" name="quadro"></iframe>
 
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum assumenda libero id consequatur, sapiente aspernatur adipisci excepturi? Quibusdam nesciunt maiores asperiores accusantium dolorum expedita sint doloribus provident temporibus voluptatem neque iste aspernatur natus inventore dolorem debitis error saepe recusandae et aliquid ex, quia ut vel! Iure in labore suscipit earum soluta odio dolor reprehenderit iusto cum eius consectetur molestiae excepturi dolore itaque ipsum ea sit, nulla nihil modi numquam beatae? Vitae, hic deleniti quae magnam ut quisquam optio illum assumenda animi eaque sed, nam ipsa autem voluptas dolor rerum, omnis veniam nostrum recusandae numquam? Odit inventore hic omnis. Molestias, aut.</p>
+
+    <section>
+        <h1>Soma de Valores</h1>
+        <input type="number" name="c1" id="c1">
+        <input type="number" name="c2" id="c2">
+        <input type="button" value="Somar" onclick="Somar()">
+        <div> Resultado: <p id="resultado"></p></div>
+        <script>
+            function Somar(){
+                var tx1 = window.document.getElementById('c1')
+                var tx2 = window.document.getElementById('c2')
+                var r = window.document.getElementById('resultado')
+
+                var n1 = Number(tx1.value)  
+                var n2 = Number(tx2.value)
+                var s = n1 + n2
+        
+                r.innerHTML = `A soma de ${n1} e ${n2} é ${s}`
+
+            }
+        </script>
+    </section>
 </body>
 </html>
