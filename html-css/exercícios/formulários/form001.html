@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeiro teste com formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados Principais</legend>
+            <p>
+                <label for="iname">Nome:
+                    <input type="text" name="name" id="iname" placeholder="Nome Completo" maxlength="30" autocomplete="name">
+                </label>
+            </p>
+            <p>
+                <label for="idata">Data de Nascimento:
+                    <input type="date" name="data" id="idata">
+                </label>
+            </p>
+            <p>
+                <label for="iendereço">Endereço:
+                    <input type="text" name="endereço" id="iendereço" autocomplete="address-line1" placeholder="Nome da Rua">
+                    <input type="number" placeholder="Número da casa">
+                </label>
+            </p>
+            <p>
+                <label for="icpf">CPF:
+                    <input type="number" name="cpf" id="icpf" placeholder="xxx.xxx.xxx-xx">
+                </label>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
