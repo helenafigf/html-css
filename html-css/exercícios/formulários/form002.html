@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando todos os Inputs</h1>   
+    <p>
+        <label for="icolor">Color:</label>
+        <input type="color" name="color" id="icolor">
+    </p>
+    <p>
+        <label for="inivel">Nível de Satisfação:</label>
+        <input type="range" name="nivel" id="inivel" value="100">
+    </p>
+    <p>
+        <label for="inivel">Nível de Satisfação:</label>
+        <input type="range" name="nivel" id="inivel" min="0" max="3">
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    <p>
+        <label for="ifoto">Foto de perfil:</label>
+        <input type="file" name="foto" id="ifoto">
+    </p>
+    <p>
+        <label for="ilocal">Date Time Local</label>
+        <input type="datetime-local" name="local" id="ilocal">
+    </p>
+    <p>
+        <label for="isenha">Senha:</label>
+        <input type="password" name="senha" id="isenha" spellcheck="true">
+    </p>
+    <section>
+        <h2>Notes</h2>
+        <div>
+            <h3>Definition and Usage</h3> <br>
+
+            <p>The spellcheck attribute specifies whether the element is to have its spelling and grammar checked or not.</p><br>
+
+            <p>The following can be spellchecked:</p><br>
+
+                <p>Text values in input elements (not password)</p>
+                Text in <code><textarea></code> elements
+                Text in editable elements
+
+        </div>
+    </section>
+</body>
+</html>
