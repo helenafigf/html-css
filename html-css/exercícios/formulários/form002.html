@@ -14,49 +14,50 @@
 </head>
 <body>
     <h1>Testando todos os Inputs</h1>   
-    <p>
-        <label for="icolor">Color:</label>
-        <input type="color" name="color" id="icolor">
-    </p>
-    <p>
-        <label for="inivel">Nível de Satisfação:</label>
-        <input type="range" name="nivel" id="inivel" value="100">
-    </p>
-    <p>
-        <label for="inivel">Nível de Satisfação:</label>
-        <input type="range" name="nivel" id="inivel" min="0" max="3">
-    </p>
-    <p>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpar">
-    </p>
-    <p>
-        <label for="ifoto">Foto de perfil:</label>
-        <input type="file" name="foto" id="ifoto">
-    </p>
-    <p>
-        <label for="ilocal">Date Time Local</label>
-        <input type="datetime-local" name="local" id="ilocal">
-    </p>
-
-    <p>
-        <label for="iemail">Digite seu email:
-        </label>
-        <input type="email" name="email" id="iemail">
-    </p>
-    <p>
-        <label for="isenha">Senha:</label>
-        <input type="password" name="senha" id="isenha" spellcheck="true">
-    </p>
-    <p>
-        <label for="ipesquisa">Pesquise aqui:</label>
-        <input type="search" name="pesquisa" id="ipesquisa" placeholder="O que você procura?">
+    <form action="cadastro.php " method="get">
+        <p>
+            <label for="icolor">Color:</label>
+            <input type="color" name="color" id="icolor">
+        </p>
+        <p>
+            <label for="inivel">Nível de Satisfação:</label>
+            <input type="range" name="nivel" id="inivel" value="100">
+        </p>
+        <p>
+            <label for="inivel">Nível de Satisfação:</label>
+            <input type="range" name="nivel" id="inivel" min="0" max="3">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        <p>
+            <label for="ifoto">Foto de perfil:</label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+        <p>
+            <label for="ilocal">Date Time Local</label>
+            <input type="datetime-local" name="local" id="ilocal">
+        </p>
+        <p>
+            <label for="iemail">Digite seu email:
+            </label>
+            <input type="email" name="email" id="iemail">
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" spellcheck="true">
+        </p>
+        <p>
+            <label for="ipesquisa">Pesquise aqui:</label>
+            <input type="search" name="pesquisa" id="ipesquisa" placeholder="O que você procura?">
         
-    </p>
-    <p>
-        <label for="isemana">Escolha uma semana:</label>
-        <input type="week" name="semana" id="isemana">
-    </p>
+        </p>
+        <p>
+            <label for="isemana">Escolha uma semana:</label>
+            <input type="week" name="semana" id="isemana">
+        </p>
+    </form>
     <section>
         <h2>Notes</h2>
         <div>
@@ -72,5 +73,7 @@
 
         </div>
     </section>
+
+
 </body>
 </html>
